@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Heading */
+h1 {
+    color: #1f3a5f;
+    margin-bottom: 20px;
+}
+
+/* Game information */
+p {
+    width: 320px;
+    margin: 8px 0;
+    padding: 10px 15px;
+
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+/* Values inside spans */
+span {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Buttons */
+button {
+    width: 150px;
+    padding: 12px;
+    margin: 8px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #0056b3;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease,
+                transform 0.2s ease;
+}
+
+/* Hover Effect */
+button:hover {
+    background-color: #003d80;
+    transform: translateY(-2px);
+}
+
+/* Button Click Effect */
+button:active {
+    transform: scale(0.98);
+}
+
+/* Restart Button */
+.restartButton {
+    background-color: #28a745;
+}
+
+.restartButton:hover {
+    background-color: #1f7a34;
+}
